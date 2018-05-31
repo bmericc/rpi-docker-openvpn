@@ -2,7 +2,7 @@
 [![](https://images.microbadger.com/badges/image/mjenz/rpi-openvpn.svg)](https://microbadger.com/images/mjenz/rpi-openvpn "Get your own image badge on microbadger.com")
 
 OpenVPN server in a Docker container complete with an EasyRSA PKI CA.
-Literally just [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn) with an armhf base image.
+Originally this was [kylemanna/docker-openvpn](https://github.com/kylemanna/docker-openvpn) with an armhf base image; now that the alpine image in the library works on armhf the difference is largely the first section of this readme.
 
 On a Raspberry Pi 3 I get about 8Mbps up and down.
 
